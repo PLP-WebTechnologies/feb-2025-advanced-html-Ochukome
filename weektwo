@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h2>Featured Image</h2>
+    <img src="https://images.pexels.com/photos/16000226/pexels-photo-16000226.jpeg" alt="Close-up of tree branch in blossom" width="500">
+    
+    <h2>Steps to Register</h2>
+    <ol type="I">
+        <li>Fill out the registration form</li>
+        <li>Verify your email</li>
+        <li>Login to your account</li>
+        <li>Complete your profile</li>
+    </ol>
+    
+    <h2>Registration Form</h2>
+    <form>
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td colspan="3"><input type="password" id="password" name="password" placeholder="Enter your password" required></td>
+            </tr>
+        </table>
+        <p>Choose Your Subscription:</p>
+        <input type="radio" id="basic" name="subscription" value="basic" required>
+        <label for="basic">Basic</label>
+        <input type="radio" id="premium" name="subscription" value="premium">
+        <label for="premium">Premium</label><br><br>
+        <p>Select Your Interests:</p>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br><br>
+        <button type="button">Step 1: Personal Details</button>
+        <button type="button">Step 2: Subscription</button>
+        <button type="button">Step 3: Interests</button>
+        <button type="submit">Step 4: Register</button>
+    </form>
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Street, NY</td>
+            <td>+1234567890</td>
+            <td>john@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Avenue, CA</td>
+            <td>+0987654321</td>
+            <td>jane@example.com</td>
+        </tr>
+        <tr>
+            <td>Emily Brown</td>
+            <td>789 Boulevard, TX</td>
+            <td>+1122334455</td>
+            <td>emily@example.com</td>
+        </tr>
+        <tr>
+            <td>Michael Lee</td>
+            <td>101 Road, FL</td>
+            <td>+5566778899</td>
+            <td>michael@example.com</td>
+        </tr>
+        <tr>
+            <td>Sarah Wilson</td>
+            <td>202 Lane, WA</td>
+            <td>+6677889900</td>
+            <td>sarah@example.com</td>
+        </tr>
+    </table>
+</body>
+</html>
